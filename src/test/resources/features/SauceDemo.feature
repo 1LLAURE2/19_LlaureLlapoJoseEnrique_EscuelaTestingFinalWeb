@@ -3,7 +3,7 @@
   SauceDemo para poder entender y hacer
   una automatizacion web
 
-  @SAUCE
+  @SAUCE @HappyPath
   Escenario: Verificar el logeo correcto en la pagina SauceDemo -OK
     Dado que el usuario abre la pagina de Sauce
     Cuando escribo el usuario "standard_user"
@@ -11,7 +11,7 @@
     Y hago clic en el boton Login
     Entonces aparece el header Swag_Labs
 
-  @SAUCE
+  @SAUCE @HappyPath
   Escenario: Agregar producto al carrito
     Dado que el usuario hace login con usuario "standard_user" y contraseña "secret_sauce"
     Cuando agrega el producto "Sauce Labs Backpack" al carrito
