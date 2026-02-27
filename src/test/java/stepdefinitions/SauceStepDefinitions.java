@@ -4,6 +4,7 @@ import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 import io.cucumber.java.es.Y;
+import net.serenitybdd.annotations.Step;
 import net.serenitybdd.annotations.Steps;
 import steps.SauceSteps;
 
@@ -32,5 +33,9 @@ public class SauceStepDefinitions {
     public void apareceHeader(){
         sauceSteps.loginExitoso();
     }
+
+    // CASO 2
+    // CASO222
+
 
 }
