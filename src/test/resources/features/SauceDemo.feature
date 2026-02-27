@@ -16,3 +16,15 @@
     Dado que el usuario hace login con usuario "standard_user" y contraseña "secret_sauce"
     Cuando agrega el producto "Sauce Labs Backpack" al carrito
     Entonces el carrito muestra "1" producto
+
+  @SAUCE @HappyPath
+    Escenario: Verificar orden de productos por nombre A-Z
+      Dado que el usuario hace login con usuario "standard_user" y contraseña "secret_sauce"
+      Cuando selecciona el filtro "Name (A to Z)"
+      Entonces los productos se muestran ordenados alfabeticamente A-Z
+
+  @SAUCE @HappyPath
+    Escenario: Verificar orden de productos por precio menor a mayor
+      Dado que el usuario hace login con usuario "standard_user" y contraseña "secret_sauce"
+      Cuando selecciona el filtro "Price (low to high)"
+      Entonces los productos se muestran ordenados por precio ascendente
